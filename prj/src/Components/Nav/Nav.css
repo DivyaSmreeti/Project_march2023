@@ -1,0 +1,28 @@
+.logout{
+    background: rgb(2, 63, 143) !important;
+    margin-left: 68vw;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white !important;
+}
+.log_btn{
+    transform:translateY(1vh);
+}
+@media(max-width:1000px){
+    .logout{
+        margin-left: 0vh;
+        padding-left: 5px !important;
+    }
+}
+.navbar{
+    background: rgb(0, 31, 71) !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.info{
+    width: 7em;
+}

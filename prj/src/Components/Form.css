@@ -1,0 +1,33 @@
+.form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+}
+.form-label{
+    font-weight: 500;
+}
+.inner-form{
+    margin: 1em;
+}
+.sub{
+    text-align: center;
+}
+.SubBtn{
+    width: 80px;
+    background-color: rgb(2, 63, 143);
+    border: none;
+    height: 30px;
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    border-radius: 16px;
+}
+@media(max-width:890px){
+    .form{
+        width:auto
+    }
+}
